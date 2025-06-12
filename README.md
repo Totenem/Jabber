@@ -142,12 +142,6 @@ For questions or support, open an issue on GitHub or contact the maintainer.
 
 ---
 
-## 📊 System Diagram
-
-> _A high-level system flow diagram can be added here._
-
----
-
 ## 📝 License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square)](LICENSE) 
