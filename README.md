@@ -1,21 +1,19 @@
-# JABBER: Room Management System
+<h1 align="center"> JABBER: Room Management System </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/room_management_system?style=flat-square&color=purple" alt="License"/>
-  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Frontend-Next.js-000?logo=next.js&logoColor=white&style=flat-square" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square" alt="MySQL"/>
-  <img src="https://img.shields.io/github/contributors/yourusername/room_management_system?style=flat-square&color=blueviolet" alt="Contributors"/>
-  <img src="https://img.shields.io/github/last-commit/yourusername/room_management_system?style=flat-square&color=blue" alt="Last Commit"/>
-</p>
+<div align="center">
 
----
+[![License: MIT](https://img.shields.io/github/license/Totenem/Jabber?style=for-the-badge&color=purple)](https://github.com/Totenem/Jabber/blob/main/LICENSE)
+[![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Frontend](https://img.shields.io/badge/Frontend-Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Database](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Contributors](https://img.shields.io/github/contributors/Totenem/Jabber?style=for-the-badge&color=blueviolet)](https://github.com/Totenem/Jabber/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/Totenem/Jabber?style=for-the-badge&color=blue)](https://github.com/Totenem/Jabber/commits/main)
+
+</div>
 
 <h2 align="center">🚀 Project Overview</h2>
 
 > **Jabber** is a modern, full-stack web application for managing classroom bookings. Built with ❤️ using FastAPI, Next.js, and MySQL, it empowers instructors and admins to efficiently manage room reservations, view real-time availability, and streamline campus logistics.
-
----
 
 ## ✨ Features
 
@@ -28,8 +26,6 @@
 - 🟢 Real-time classroom status updates
 - 📱 Responsive, modern UI
 
----
-
 ## 🛠️ Tech Stack
 
 | Frontend | Backend | Database | UI/UX |
@@ -37,9 +33,7 @@
 | ![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss) |
 | React, TypeScript | Python | MySQL | Radix UI, Lucide Icons, Sonner |
 
----
-
-## 📦 Project Structure
+## �� Project Structure
 
 ```text
 room_management_system/
@@ -55,8 +49,6 @@ room_management_system/
 ├── .gitignore
 └── README.md
 ```
-
----
 
 ## ⚡ Setup Instructions
 
@@ -86,8 +78,6 @@ npm run dev
 ```
 - The frontend will run on [http://localhost:3000](http://localhost:3000)
 
----
-
 ## 🧑‍💻 Usage Instructions
 
 - 📝 Register as an instructor and log in.
@@ -96,8 +86,6 @@ npm run dev
 - 📋 View your bookings, edit or cancel them as needed.
 - ✅ When finished with a booking, click "Mark as Ended" to release the room.
 - 🟢 Only available rooms can be booked.
-
----
 
 ## 📚 API Overview
 
@@ -115,16 +103,12 @@ npm run dev
 | DELETE | `/booking/{booking_id}` | Delete a booking |
 | POST   | `/finish-usage/{booking_id}` | Mark a booking as ended |
 
----
-
 ## 💡 Tips
 
 - 🎯 Use the filters on the classrooms page to quickly find the right room.
 - ⏰ Only one active booking per classroom per time slot is allowed.
 - ✅ Always "Mark as Ended" when you finish using a room to free it for others.
 - 🐞 If you encounter issues, check your backend and frontend logs for errors.
-
----
 
 ## 🤝 Contributing
 
@@ -135,12 +119,8 @@ npm run dev
 3. Push to the branch: `git push origin feature/your-feature`
 4. Open a pull request
 
----
-
 ## 📞 Support
 For questions or support, open an issue on GitHub or contact the maintainer.
-
----
 
 ## 📝 License
 
